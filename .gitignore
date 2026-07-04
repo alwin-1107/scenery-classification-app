@@ -1,0 +1,21 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# Python Cache & Internals
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Large Model Data (Optional safeguard, but since your model is 42MB you CAN track it)
+# Remove the comment hashtag below ONLY if you decide to host the model elsewhere later:
+# models/*.keras

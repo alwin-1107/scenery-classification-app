@@ -1,0 +1,11 @@
+# Verified working together on 2026-07-02 (Python 3.12).
+# tensorflow-cpu is used instead of tensorflow since this app only runs
+# inference (no GPU needed) — it installs faster and is a smaller download,
+# which matters if you deploy this on Streamlit Community Cloud or similar.
+# If you ever add GPU-accelerated retraining, swap this line for `tensorflow`.
+streamlit>=1.50,<2.0
+tensorflow-cpu>=2.16,<3.0
+pillow>=10.0
+numpy>=1.26
+matplotlib>=3.8
+
