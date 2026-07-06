@@ -16,6 +16,3 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
-# Large Model Data (Optional safeguard, but since your model is 42MB you CAN track it)
-# Remove the comment hashtag below ONLY if you decide to host the model elsewhere later:
-# models/*.keras
