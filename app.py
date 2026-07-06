@@ -83,8 +83,7 @@ with st.expander("ℹ️ About the Model"):
     st.markdown("""
     - **Architecture:** Custom 4-block CNN (trained from scratch)
     - **Accuracy:** 81.03% on unseen test data
-    - **Learn More:** Check out the full training report and dataset details in the [GitHub Repository](#). 
-    *(Note: Add your repo link here later!)*
+   - **Learn More:** Check out the full training report and dataset details in the [GitHub Repository](https://github.com/alwin-1107/scenery-classification-app).
     """)
 
 model = load_model()
