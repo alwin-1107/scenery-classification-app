@@ -16,3 +16,5 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
+# Legacy/original model file (126MB HDF5 — exceeds GitHub's 100MB limit)
+*.h5
