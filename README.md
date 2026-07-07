@@ -4,7 +4,7 @@ A custom Convolutional Neural Network — **built and trained from scratch, no p
 
 **81.03% test accuracy** on 3,000 held-out images · trained on the [Intel Image Classification](https://www.kaggle.com/datasets/puneet6060/intel-image-classification) dataset (~25,000 images, 150×150 RGB)
 
-> 🔗 **Live demo:** *add your Streamlit Community Cloud link here after deploying (see [Deployment](#deployment) below)*
+>> 🔗 **Live demo:** [scenery-classifier.streamlit.app](https://scenery-classifier.streamlit.app)
 
 ---
 
